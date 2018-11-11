@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_torneos"
+            android:icon="@drawable/ic_sword"
+            android:title="@string/txtTorneos" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_invaders"
+            android:title="@string/txtPerfil" />
+        <item
+            android:id="@+id/nav_estadisticas"
+            android:icon="@drawable/ic_military_rank"
+            android:title="@string/txtEstadisticas" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_cup"
+            android:title="@string/txtRanking" />
+
+        <item
+            android:id="@+id/nav_mensajes"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/txtMensajes" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_game_over"
+            android:title="@string/txtLogin" />
+    </group>
+
+</menu>

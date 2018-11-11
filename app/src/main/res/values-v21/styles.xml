@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+
+    <!--     MIS     ESTILOS     -->
+
+    <style name="estiloTexto">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/titillium_web</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="estiloBoton">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/titillium_web</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
